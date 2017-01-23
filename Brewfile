@@ -33,38 +33,46 @@ brew 'node'
 brew 'trash'
 brew 'wget'
 
-# Development
-brew 'php71', args: ['with-debug']
-brew 'mariadb'
-
-# Apps
-cask 'aerial'
+# Daily apps
+cask 'flux'
 cask 'alfred'
-cask 'caffeine'
+cask '1password'
 cask 'dropbox'
-cask 'firefox'
-cask 'google-chrome'
-cask 'google-drive'
-cask 'iterm2'
-cask 'mysqlworkbench'
-cask 'phpstorm'
-cask 'quip'
-cask 'sequel-pro'
-cask 'slack'
-cask 'sublime-text'
-cask 'tower'
-cask 'transmit'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'virtualbox-extension-pack'
-cask 'vlc'
+cask 'moom'
 
-# Quicklook
-cask 'qlcolorcode'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'quicklook-csv'
-cask 'qlstephen'
+# Communication & planning
+cask 'notion'
+cask 'slack'
+cask 'teamviewer'
+
+# Browsers
+cask 'google-chrome'
+cask 'firefox'
+
+# Dev apps
+cask 'tower'
+cask 'codekit'
+cask 'sublime-text'
+cask 'iterm2'
+cask 'mamp'
+cask 'imageoptim'
+cask 'imagealpha'
+
+# Design apps
+cask 'axure-rp'
+cask 'sketch'
+cask 'sketch-toolbox'
+cask 'fontexplorer-x-pro'
+cask 'adobe-master-collection-cs6'
+
+# Utility apps
+cask 'cleanmymac'
+cask 'bartender'
+cask 'aerial'
+cask 'purevpn'
+cask 'spotify'
+cask 'silverlight'
+cask 'textexpander'
 
 # Fonts
 cask 'font-sauce-code-powerline'
@@ -72,12 +80,21 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
-# Install Mac App Store apps
+# Install Mac App Store apps https://github.com/mas-cli/mas
+mas 'Keynote', id: 409183694
+mas 'Ulysses', id: 623795237
+mas 'Airmail 3', id: 918858936
+mas 'Clean', id: 418412301
+mas 'Moom', id: 419330170
+mas 'Kuvva', id: 451557061
 mas '1Password', id: 443987910
-mas 'Byword', id: 420212497
-mas 'Deckset', id: 847496013
-mas 'Giphy Capture', id: 668208984
-mas 'Paw', id: 584653203
-mas 'Sip', id: 507257563
-mas 'Sketch', id: 402476602
-mas 'Tweetbot', id: 557168941
+mas 'StuffIt Expander', id: 405580712
+mas 'iA Writer Classic', id: 439623248
+mas 'Be Focused Pro - Focus Timer & Goal Tracker', id: 961632517
+mas 'Numbers', id: 409203825
+mas 'Pages', id: 409201541
+mas 'Reeder', id: 880001334
+mas 'Transmit', id: 403388562
+mas 'Wunderlist', id: 410628904
+mas 'Slack', id: 803453959
+mas 'On The Job', id: 404699732
